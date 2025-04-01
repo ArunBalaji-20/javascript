@@ -1,12 +1,4 @@
-// document.addEventListener("click", function(event) {
-//     if (event.target.tagName === "BUTTON") {
-//         console.log("Button Text:", event.target.innerText);
-//         console.log("Button ID:", event.target.id);
-//         console.log("Button Class:", event.target.className);
-//         console.log("Custom Attribute:", event.target.getAttribute("data-info"));
-//         console.log("Button Object:", event.target);
-//     }
-// });
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const textSpace = document.getElementById("text-space");
