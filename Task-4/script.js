@@ -28,11 +28,13 @@ async function getWeather() {
             div.innerHTML=`
             <div class="forecast-elements">
                  <p> ${data.list[i].dt_txt}</p>
+                 <p> ${data.list[i].dt_txt.slice(-8)}</p>
                  <p> ${data.list[i].main.temp}°C</p>
                  <p> ${data.list[i].weather[0].description}</p>
              </div> 
          `;
             forecastContainer.appendChild(div);
+            // console.log(data.list[i].dt_txt.slice(-8))
         }
   
     } catch (error) {
@@ -40,6 +42,4 @@ async function getWeather() {
     }
 }
 
-{/* <p>Humidity: ${data.main.humidity}%</p>
-<p>Condition: ${data.weather[0].description}</p> */}
-// http://api.openweathermap.org/data/2.5/forecast?q=london&appid=fb63e95f46e3bef4a1a00dd64cfc41d5&units=metric
+
