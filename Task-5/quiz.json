@@ -1,0 +1,30 @@
+{
+    "quiz": [
+      {
+        "question": "What does CPU stand for?",
+        "options": ["Central Processing Unit", "Computer Personal Unit", "Central Process Unit", "Central Peripheral Unit"],
+        "answer": 0
+      },
+      {
+        "question": "Which programming language is known as the 'mother of all languages'?",
+        "options": ["C", "Assembly", "Fortran", "COBOL"],
+        "answer": 0
+      },
+      {
+        "question": "Which data structure follows the LIFO principle?",
+        "options": ["Queue", "Stack", "Array", "Linked List"],
+        "answer": 1
+      },
+      {
+        "question": "What is the time complexity of binary search in a sorted array?",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+        "answer": 1
+      },
+      {
+        "question": "Which HTTP status code indicates a successful request?",
+        "options": ["200", "404", "500", "403"],
+        "answer": 0
+      }
+    ]
+  }
+  
