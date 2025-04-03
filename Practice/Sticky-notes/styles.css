@@ -1,0 +1,64 @@
+
+body{
+    background-color: #282849;
+    margin: 0;
+    /* font-family: Poppins; */
+}   
+
+main{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+form{
+    background-color: white;
+    width: max-content;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 24px;
+    display: flex;
+    gap: 10px
+}
+
+form input,button{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-size: large;
+    cursor: pointer;
+}
+
+/* form input{
+    border-radius: 90%;
+} */
+
+#list textarea{
+    all: unset;
+    color: white;
+}
+
+#list .note{
+    background-color: rgba(128, 128, 128, 0.807);
+    width: max-content;
+    border-top: 30px solid yellow;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top:60px;
+    left: 40px;
+}
+
+#list .note span{
+    position: absolute;
+    bottom: 100%;
+    right: 0%;
+    height: 25px;
+    font-size: large;
+    padding-right: 10px;
+    font-family: cursive;
+    cursor: pointer;
+}
