@@ -13,10 +13,11 @@ body {
 ul {
     list-style: none;
     padding: 0;
+    width: 10%;
 }
 
 li {
-    padding: 10px;
+    padding: 15px;
     margin: 5px;
     background: #f4f4f4;
     border: 1px solid #ccc;
