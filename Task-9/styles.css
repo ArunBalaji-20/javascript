@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: rgba(0, 0, 0, 0.938);
+    overflow-y: scroll;
+
+} 
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
+    
+}
+
+.item{
+    /* gap: 12rem; */
+    background-color: tomato;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+}
+
