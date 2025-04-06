@@ -4,7 +4,7 @@ const routes = {
         template: "404.html",
         title: "404 not found",
         description:"error page not found",
-    },
+    },  
     "/": {
         template: "home.html",
         title: "Home",
