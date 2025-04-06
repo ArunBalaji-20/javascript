@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>eCommerce Shopping Cart</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="title">
+            <h1>Shoppify</h1>
+            <p>eCommerce App</p>
+        </div>
+        <ul class="nav-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><input type="text" placeholder="&#128269;Search" id="search"></li>
+            <li class="cart-cls">   <button type="button" id="cart-btn" >
+                          &#128722; Cart
+                    </button>
+            </li>
+        </ul>
+        <div class="cart-div">
+            
+            <div class="cart-items" id="cart-data">
+                <!-- <p>Price:333</p> -->
+                <!-- <p>c1</p>
+                <div class="stepper">
+                    <button onclick="changeValue(-1)">-</button>
+                     <input type="number" id="quantity" value="0" min="0">
+                    <button onclick="changeValue(1)">+</button>
+                </div>
+            </div>
+           
+            
+            <hr>
+            <div class="cart-items">
+                <p>c2</p>
+                <div class="stepper">
+                    <button onclick="changeValue(-1)">-</button>
+                     <input type="number" id="quantity" value="0" min="0">
+                    <button onclick="changeValue(1)">+</button>
+                </div>
+            </div>
+          
+          
+            <hr>
+            
+            <div class="cart-items">
+                <p>c1</p>
+                <div class="stepper">
+                    <button onclick="changeValue(-1)">-</button>
+                     <input type="number" id="quantity" value="0" min="0">
+                    <button onclick="changeValue(1)">+</button>
+                </div>
+            </div>
+          
+            <hr> -->
+        </div>
+    </nav>
+
+    <h2 id="prod-title">Products List</h2>
+    <div class="container">
+        <div class="card c1">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/o/9/6/5xl-c751-white-dennis-lingo-original-imahfgzs7p6abu8v.jpeg?q=70" alt="prod-2" >
+            <p>product 1</p>
+            <p>$10</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card c2">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/j/i/d/3xl-fmsht1137-flying-machine-original-imagmfse8asdvqgr.jpeg?q=70" alt="prod-2" >
+            <p>product 2</p>
+            <p>$100</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card c3">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/j/i/d/3xl-fmsht1137-flying-machine-original-imagmfse8asdvqgr.jpeg?q=70" alt="prod-3" >
+            <p>product 3</p>
+            <p>$120</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card c4">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/j/i/d/3xl-fmsht1137-flying-machine-original-imagmfse8asdvqgr.jpeg?q=70" alt="prod-4" >
+            <p>product 4</p>
+            <p>$105</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card c5">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/j/i/d/3xl-fmsht1137-flying-machine-original-imagmfse8asdvqgr.jpeg?q=70" alt="prod-5" >
+            <p>product 5</p>
+            <p>$110</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card c6">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/j/i/d/3xl-fmsht1137-flying-machine-original-imagmfse8asdvqgr.jpeg?q=70" alt="prod-6" >
+            <p>product 6</p>
+            <p>$110</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card c7">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/j/i/d/3xl-fmsht1137-flying-machine-original-imagmfse8asdvqgr.jpeg?q=70" alt="prod-5" >
+            <p>product 7</p>
+            <p>$14</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card c8">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/j/i/d/3xl-fmsht1137-flying-machine-original-imagmfse8asdvqgr.jpeg?q=70" alt="prod-5" >
+            <p>product 8</p>
+            <p>$30</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card c9">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/j/i/d/3xl-fmsht1137-flying-machine-original-imagmfse8asdvqgr.jpeg?q=70" alt="prod-5" >
+            <p>product 9</p>
+            <p>$50</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card c10">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/j/i/d/3xl-fmsht1137-flying-machine-original-imagmfse8asdvqgr.jpeg?q=70" alt="prod-5" >
+            <p>product 10</p>
+            <p>$140</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card c11">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/j/i/d/3xl-fmsht1137-flying-machine-original-imagmfse8asdvqgr.jpeg?q=70" alt="prod-5" >
+            <p>product 11</p>
+            <p>$60</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card c12">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/j/i/d/3xl-fmsht1137-flying-machine-original-imagmfse8asdvqgr.jpeg?q=70" alt="prod-5" >
+            <p>product 12</p>
+            <p>$70</p>
+            <button>Add to cart</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="f-1">
+            <ul>
+                <h3>About</h3>
+                <li>Contact us</li>
+                <li>About us</li>
+                <li>Carrers</li>
+                <li>Flipkart services</li>
+                <li>Press</li>
+                <li>Corporate information</li>
+            </ul>
+    
+            <ul>
+                <h3>Group Companies</h3>
+                <li>Myntra</li>
+                <li>Shopzy</li>
+                <li>ClearTrip</li>
+            
+            </ul>
+    
+            <ul>
+                <h3>Help</h3>
+                <li>Payments</li>
+                <li>Shipping</li>
+                <li>Cancellation & Returns</li>
+                <li>FAQ</li>
+            
+            </ul>
+    
+            <ul>
+                <h3>Cancellation & Returns</h3>
+                <li>Terms of use</li>
+                <li>Security</li>
+                <li>Privacy</li>
+                <li>Sitemap</li>
+            </ul>
+            
+            <ul>
+                <h3>Mail us</h3>
+                <li>Buildings Alyssa, 
+                <li> Begonia & Clover, Embassy Tech  </li>   
+                <li>Outer Ring Road, Devarabeesanahalli  </li>
+                <li>Bengaluru – 560103, Karnataka, India</li>
+            </ul>
+            
+    
+    
+          </div>
+    </footer>
+
+</body>
+</html>
